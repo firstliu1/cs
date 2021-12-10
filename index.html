@@ -3,9 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<style type="text/css">
+		.centent{
+			margin: 200px auto;
+			width:300px;
+			height: 200px;
+			border: 1px solid black;
+		}
+		.wz{
+			width:50%;
+			text-align: center;
+			display: block;
+			margin: 20% auto;
+		}
+		button{
+			margin-left:20%;
+			width: 20%;
+			text-align: center;
+		}
+		</style>
 	</head>
 	<body>
-    <h1>你好</h1>
+		<div class="centent">
+			<span class="wz">张烨是你爹吗？</span>
+			<button onclick="aa(1)">是</button>
+			<button onclick="aa(2)">不是</button>
+		</div>
+		<script type="text/javascript">
+			function aa(a){
+				if(a==2){
+					alert("不,她是");
+				}else{
+					alert("好的乖儿子");
+				}
+			}
+		</script>
 	</body>
 </html>
-
